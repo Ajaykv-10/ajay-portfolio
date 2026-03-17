@@ -47,8 +47,9 @@ export const HeroSection = () => {
             </motion.p>
           </div>
           <p className="text-2xl">
-            Building modern, responsive web interfaces with React, Next JS and
-            Typescript
+            Building modern, scalable web application with React, Next JS and
+            cutting edge technologies. Transforming ideas into exceptional
+            digital experiences
           </p>
           <button className="bg-orange-700 rounded-2xl px-6 py-2 mt-5 text-lg font-bold">
             Resume
