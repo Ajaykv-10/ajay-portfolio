@@ -31,8 +31,8 @@ const About = () => {
             developement and enjoy bringing ideas to life through code.
           </h3>
           <h3 className="text-xl  mt-2">
-            I'm constantly learning, experimenting with new technologies and
-            improving my craft-because for me, development isnt just about
+            I&apos;m constantly learning, experimenting with new technologies
+            and improving my craft-because for me, development isnt just about
             writing code, its about building experiences that actually work for
             people. When I am not coding, I enjoy exploring new design trends,
             improving existing projects and pushing myself to write cleaner,

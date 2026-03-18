@@ -29,3 +29,13 @@ body {
   color: var(--foreground);
   font-family: "Crimson Pro", serif;
 }
+body.redEyeMouse{
+  cursor:url("/red-eye-cursor/redeye1.png"),auto ;
+  animation:redEye 400ms infinite ;
+}
+
+@keyframes redEye{
+0%,35% {cursor: url("/red-eye-cursor/redeye1.png"),auto}
+35%,70% {cursor: url("/red-eye-cursor/redeye2.png"),auto}
+70%,100% {cursor: url("/red-eye-cursor/redeye3.png"),auto}
+}
