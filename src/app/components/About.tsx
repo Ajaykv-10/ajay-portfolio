@@ -14,12 +14,12 @@ const About = () => {
       </div>
       <div className="grid w-[80%] mx-auto lg:grid-cols-2 gap-12 items-center">
         <div className="relative">
-          <div className="aspect-square rounded-2xl overflow-hidden p-2">
+          <div className="aspect-square rounded-2xl overflow-hidden w-96 p-2">
             <Image
               src="/ajay.png"
               alt="ajay"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="w-full h-full object-center rounded-[70px] p-2 bg-black"
             />
           </div>

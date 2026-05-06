@@ -39,3 +39,12 @@ body.redEyeMouse{
 35%,70% {cursor: url("/red-eye-cursor/redeye2.png"),auto}
 70%,100% {cursor: url("/red-eye-cursor/redeye3.png"),auto}
 }
+
+@keyframes marquee-ltr {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee-ltr {
+  animation: marquee-ltr 12s linear infinite;
+}

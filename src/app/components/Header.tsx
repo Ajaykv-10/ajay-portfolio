@@ -27,8 +27,8 @@ export const Header = () => {
                 <nav className='hidden md:flex space-x-10 text-lg'>
                     <Link href="#home" className='text-white hover:text-fuchsia-600 transition duration-300'>Home</Link>
                     <Link href="#about" className='text-white hover:text-fuchsia-600 transition duration-300'>About</Link>
-                    <Link href="#lab" className='text-white hover:text-fuchsia-600 transition duration-300'>Lab</Link>
                     <Link href="#projects" className='text-white hover:text-fuchsia-600 transition duration-300'>Projects</Link>
+                    <Link href="#skills" className='text-white hover:text-fuchsia-600 transition duration-300'>Skills</Link>
                     <Link href="#contact" className='text-white hover:text-fuchsia-600 transition duration-300'>Contact</Link>
                 </nav>
                 <button className='md:hidden text-white text-2xl p-2 rounded-md hover:bg-fuchsia-600 transition duration-300' onClick={() => {

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { HeroSection } from "./components/HeroSection";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import { SkillSection } from "./components/SkillSection";
 
 export default function Home() {
   return (
@@ -9,11 +11,12 @@ export default function Home() {
       <div id="about" className="min-h-screen py-24">
         <About />
       </div>
-      <div id="lab" className="min-h-screen py-24">
-        Lab
-      </div>
+
       <div id="projects" className="min-h-screen py-24">
-        Projects
+        <Projects />
+      </div>
+      <div id="skills" className="min-h-screen py-24">
+        <SkillSection />
       </div>
       <div id="contact" className="min-h-screen py-24">
         Contact
